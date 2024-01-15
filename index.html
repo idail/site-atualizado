@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Vasconcelos Softwares</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/estilos-alterados.css">
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	<link rel="stylesheet" href="css/style_carrousel.css">
+
+	<style>
+		html {
+			scroll-behavior: smooth;
+		}
+
+		.btn-whatsapp a {
+			color: #fff;
+			text-decoration: none;
+			display: block;
+		}
+
+		.btn-whatsapp {
+			position: fixed;
+			right: -5px;
+			bottom: 55px;
+			transform: translate(-50%, -50%);
+			background-color: rgb(37, 211, 102);
+			width: 60px;
+			height: 60px;
+			text-align: center;
+			line-height: 58px;
+			font-size: 1.8em;
+			color: #ffffff;
+			font-weight: 100;
+			border-radius: 50%;
+		}
+
+		.btn-whatsapp:before,
+		.btn-whatsapp:after {
+			content: '';
+			display: block;
+			position: absolute;
+			border-radius: 50%;
+			border: 1px solid #25d366;
+			left: -20px;
+			right: -20px;
+			bottom: -20px;
+			top: -20px;
+			animation: animate 1.5s linear infinite;
+			opacity: 0;
+			backface-visibility: hidden;
+		}
+
+		.pulsaDelay:after {
+			animation-delay: .5s;
+		}
+
+		@keyframes animate {
+			0% {
+				transform: scale(0.5);
+				opacity: 0;
+			}
+
+			50% {
+				opacity: 1;
+			}
+
+			100% {
+				transform: scale(1.2);
+				opacity: 0;
+			}
+		}
+
+
+		body {
+			padding-top: 0px;
+		}
+
+		.cookie-disclaimer {
+			background: #040404;
+			color: #FFF;
+			opacity: 1;
+			width: 100%;
+			bottom: 0px;
+			left: 0;
+			z-index: 1;
+			height: 130px;
+			position: fixed;
+		}
+
+		p {
+			font-size: 15px;
+			font-weight: 300;
+			line-height: 20px;
+			color: #fff !important;
+			margin-bottom: 16px;
+			font-family: 'Playfair Display', serif;
+		}
+
+		.learn-more {
+			text-decoration: none;
+			color: #fff !important;
+			margin-top: 8px;
+		}
+
+		.cookie-disclaimer .container {
+			text-align: center;
+			padding-top: 0px;
+			padding-bottom: 20px;
+		}
+
+		.cookie-disclaimer .cookie-close {
+			float: right;
+			padding: 10px;
+			cursor: pointer;
+		}
+
+
+
+		.cookie {
+
+			position: fixed;
+
+			bottom: 10px;
+
+			margin: auto;
+
+			z-index: 10;
+
+		}
+
+
+
+		.card {
+
+			flex-direction: column;
+
+			min-width: 0;
+
+			color: #000;
+
+			word-wrap: break-word;
+
+			background-color: #fff;
+
+			background-clip: border-box;
+
+			border: 1px solid #fff;
+
+			border-radius: 6px;
+
+			-webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+
+			-moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+
+			box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+
+		}
+
+
+
+		.learn-more {
+
+			text-decoration: none;
+
+			color: #000;
+
+			margin-top: 8px;
+
+		}
+
+
+
+		.learn-more:hover {
+
+			text-decoration: none;
+
+			color: blue;
+
+			margin-top: 8px;
+
+		}
+
+
+
+		.p-4 {
+
+			padding: 0.5rem !important;
+
+		}
+
+
+
+		p {
+
+			font-size: 15px;
+
+			font-weight: 300;
+
+			line-height: 20px;
+
+			color: #000;
+
+			margin-bottom: 13px;
+
+			font-family: 'Playfair Display', serif;
+
+		}
+
+		.lightboxOverlay {
+
+			display: block;
+
+			width: 100% !important;
+
+			height: 3602px;
+
+		}
+
+		.titulo {
+			font-size: 18px;
+			font-weight: 300;
+			margin-bottom: 0;
+			text-transform: full-size-kana;
+			color: blue;
+			letter-spacing: 2px;
+		}
+	</style>
+</head>
+
+<body style="background-color: aliceblue;">
+	<section id="inicio" class="ftco-section">
+		<!-- <div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Website menu #06</h2>
+				</div>
+			</div>
+		</div> -->
+		<div class="wrap">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col">
+						<p class="mb-0 phone"><span class="fa fa-phone"></span> <a href="#">+55 67 99213-7944</a></p>
+					</div>
+					<div class="col d-flex justify-content-end">
+						<div class="social-media">
+							<p class="mb-0 d-flex">
+								<a href="#" class="d-flex align-items-center justify-content-center"><span
+										class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+								<!-- <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a> -->
+								<a href="#" class="d-flex align-items-center justify-content-center"><span
+										class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+								<!-- <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a> -->
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+			<!-- <div class="container">
+	    	<a class="navbar-brand" href="index.html">Papermag <span>Magazine</span></a>
+	    	<form action="#" class="searchform order-sm-start order-lg-last">
+          <div class="form-group d-flex">
+            <input type="text" class="form-control pl-3" placeholder="Search">
+            <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+          </div> -->
+			</form>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span> Menu
+			</button>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav m-auto">
+					<li class="nav-item active"><a href="#inicio" class="nav-link">Inicio</a></li>
+					<li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+					<li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+					<!-- <li class="nav-item dropdown">
+						<a class="nav-link" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+							aria-expanded="false">Projetos</a> -->
+					<!-- <div class="dropdown-menu" aria-labelledby="dropdown04">
+              	<a class="dropdown-item" href="#">Page 1</a>
+                <a class="dropdown-item" href="#">Page 2</a>
+                <a class="dropdown-item" href="#">Page 3</a>
+                <a class="dropdown-item" href="#">Page 4</a>
+              </div> -->
+					</li>
+					<li class="nav-item"><a href="#formulario-contato" class="nav-link">Contato</a></li>
+					<!-- <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li> -->
+				</ul>
+			</div>
+			</div>
+		</nav>
+		<!-- END nav -->
+
+	</section>
+
+
+	<section id="servicos">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<b>
+					<h4 id="texto_informmacoes_implementacoes" class="typewrite"
+						style="line-height: 4.5;background-color: aliceblue;font-size: 19px;" data-period="1000"
+						data-type='[ "Implementação de Softwares Web", "Implementação de Softwares Desktop", "Implementação de Sites"]'>
+						<em><span class="wrap"></span></em>
+					</h4>
+				</b>
+			</div>
+		</div>
+	</section>
+	<div>
+		<div class="container-fluid">
+			<section id="projetos">
+
+				<div class="row">
+					<!-- <div class="col-lg-12 col-xl-12 text-center"> -->
+					<!-- <main class="main-content"> -->
+					<!-- <div class="fullwidth-block latest-projects-section"> -->
+					<!-- <div class="container"> -->
+					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
+						<div class='project'>
+							<a class='project-thumbnail'>
+								<!-- <source srcset="..." type="image/svg+xml"> -->
+								<a href='images/cadastro de protocolo sti.jpg' class='gallery'
+									data-lightbox='mygallery'><img src="images/cadastro de protocolo sti.jpg"
+										class="img-fluid img-thumbnail" alt="..."></a>
+								</figure>
+								<h5 class="titulo">Software para a área da saude, com gerencimento de
+									protocolos,
+									pop, aulas, normas e serviços, para utilização dos profissionais</h5>
+						</div>
+					</div>
+
+
+
+					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
+						<div class='project'>
+							<figure class='project-thumbnail'>
+								<!-- <source srcset="..." type="image/svg+xml"> -->
+								<a href='images/menu sti.jpg' class='gallery' data-lightbox='mygallery'><img
+										src="images/menu sti.jpg" class="img-fluid img-thumbnail" alt="..."></a>
+							</figure>
+							<h5 class="titulo">Software para a área da saude, com gerencimento de
+								protocolos,
+								pop, aulas, normas e serviços, para utilização dos profissionais</h5>
+						</div>
+					</div>
+
+					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
+						<div class='project'>
+							<figure class='project-thumbnail'>
+								<!-- <source srcset="..." type="image/svg+xml"> -->
+								<a href='images/cadastro de notificacao sti.png' class='gallery'
+									data-lightbox='mygallery'><img src="images/cadastro de notificacao sti.png"
+										class="img-fluid img-thumbnail" alt="..."></a>
+							</figure>
+							<h5 class="titulo">Software para a área da saude, com gerencimento de
+								protocolos,
+								pop, aulas, normas e serviços, para utilização dos profissionais</h5>
+						</div>
+					</div>
+
+					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
+						<div class='project'>
+							<figure class='project-thumbnail'>
+								<!-- <source srcset="..." type="image/svg+xml"> -->
+								<a href='images/login sti.jpg' class='gallery' data-lightbox='mygallery'><img
+										src="images/login sti.jpg" class="img-fluid img-thumbnail" alt="..."></a>
+							</figure>
+							<h5 class="titulo">Software para a área da saude, com gerencimento de
+								protocolos,
+								pop, aulas, normas e serviços, para utilização dos profissionais</h5>
+						</div>
+					</div>
+
+					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
+						<div class='project'>
+							<figure class='project-thumbnail'>
+								<!-- <source srcset="..." type="image/svg+xml"> -->
+								<a href='images/cadastro de usuario sti.jpg' class='gallery'
+									data-lightbox='mygallery'><img src="images/cadastro de usuario sti.jpg"
+										class="img-fluid img-thumbnail" alt="..."></a>
+							</figure>
+							<h5 class="titulo">Software para a área da saude, com gerencimento de
+								protocolos,
+								pop, aulas, normas e serviços, para utilização dos profissionais</>
+						</div>
+					</div>
+
+
+					<!-- </div> -->
+					<!-- </div> -->
+					<!-- </main> -->
+					<!-- </div> -->
+
+					<!-- <a href="https://www.marecovolpini.srv.br" target="_blank"><img src="images/site mareco volpini.PNG"
+						style="max-width: 25%;" class="img-fluid"
+						title="Implementação do site para a empresa mareco volpini"
+						alt="Implementação do site para a empresa mareco volpini"></a> -->
+					<!-- <img src="images/painel administrativo 1.PNG" style="max-width: 25%;" class="img-fluid"
+					title="Implementação de painel para gerenciamento de imagens com descrições" alt="...">
+				<img src="images/painel administrativo 2.PNG" style="max-width: 25%;" class="img-fluid"
+					title="Implementação de painel para gerenciamento de imagens da galeria" alt="..."> -->
+					<!-- <br /> -->
+					<br />
+					<br>
+					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
+						<div class='project'>
+							<figure class='project-thumbnail'>
+								<!-- <source srcset="..." type="image/svg+xml"> -->
+								<img src="" class="img-fluid img-thumbnail" alt="...">
+							</figure>
+							<h6 style="color: black;">Implementação de software para construtoras com o módulo da
+								engenharia civil</h6>
+						</div>
+					</div>
+					<!-- <h3>Implementação de software para construtoras com o módulo da engenharia civil</h3> -->
+					<!-- <img src="images/software para engenharia.PNG" style="max-width: 50%;" class="img-fluid"
+					title="Implementação de software para construtoras com o módulo da engenharia civil"
+					alt="Implementação de software para construtoras com o módulo da engenharia civil"> -->
+					<br />
+					<br />
+					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
+						<div class='project'>
+							<figure class='project-thumbnail'>
+								<!-- <source srcset="..." type="image/svg+xml"> -->
+								<a href="https://redeamigos.idailneto.com.br/" target="_blank"><img
+										src="images/rede social rede amigos.PNG" class="img-fluid img-thumbnail"
+										alt="..."></a>
+							</figure>
+							<h6 style="color: black;">Implementação da rede social amigos com funcionalidades em
+								implementação</h6>
+						</div>
+					</div>
+					<!-- <h3>Rede Amigos - Em implementação</h3>
+					<a href="https://redeamigos.idailneto.com.br/" target="_blank"><img
+							src="images/rede social rede amigos.PNG" style="max-width: 50%;" class="img-fluid"
+							title="Implementação da rede social amigos com funcionalidades em implementação"
+							alt="Implementação do site para a empresa mareco volpini"></a> -->
+				</div>
+			</section>
+		</div>
+	</div>
+	<br />
+	<br />
+	<br />
+	<section id="formulario-contato">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-md-5 form-group">
+					<h4 class="text-center">Contato</h4>
+					<div class="col-lg-12 form-group text-center">
+						<label for="exampleFormControlInput1" class="form-label">Nome</label>
+						<input type="text" class="form-control" id="nome-contato" placeholder="Digite seu nome">
+					</div>
+					<div class="col-lg-12 form-group text-center">
+						<label for="exampleFormControlTextarea1" class="form-label">Digite sua necessidade</label>
+						<textarea class="form-control" id="necessidade-contato" rows="3"
+							placeholder="Informa sua necessidade"></textarea>
+						<br />
+						<button type="button" class="btn btn-primary" id="informacoes-contato">Enviar</button>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="alert alert-primary" role="alert" id="mensagem-validacao-campo-vazio">
+				<span id="mensagem-campo-vazio"></span>
+			</div>
+			<div class="alert alert-success" role="alert" id="mensagem-informativo-email">
+				<span id="mensagem-email-encminhado"></span>
+			</div>
+			<div class="alert alert-primary" role="alert" id="mensagem-erro-encaminhamento-email">
+				<span id="mensagem-campo-erro-encaminhamento-email"></span>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="btn-whatsapp pulsaDelay">
+			<a href="https://wa.me/5567992137944?text=Olá,%20tudo%20bem?" class="whatsapp" style="position:fixed;width:60px;height:60px;
+	background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+z-index:1000;" target="_blank">
+				<!-- <a href="https://wa.me/55992137944?text=Olá,%20studo%20bem?" class="whatsapp" style="position:fixed;width:60px;height:60px;bottom:75px;right:25px;
+background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+z-index:1000;" target="_blank"> -->
+				<i style="margin-top:16px" class="fa fa-whatsapp"></i>
+			</a>
+		</div>
+
+		<div class="cookie-disclaimer">
+			<div class="cookie-close accept-cookie"><i class="fa fa-times"></i></div>
+			<div class="container">
+				<p><b>Vasconcelos Softwares</b>
+
+					Utilizamos cookies e outras tecnologias de medição para melhorar a sua experiência de navegação no
+					nosso site</h4><br><a class="learn-more" target="_blank"
+						href="https://www.gov.br/cidadania/pt-br/acesso-a-informacao/lgpd">Leia Mais<i
+							class="fa fa-angle-right ml-2"></i></a>
+				</p>
+				<button type="button" class="btn btn-success accept-cookie">Concordo</button>
+			</div>
+		</div>
+	</section>
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<!-- <script src="js/popper.js"></script> -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- <script src="js/main.js"></script> -->
+	<script src="js/contato.js"></script>
+	<script src="js/digitacao.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			var cookie = false;
+			var cookieContent = $('.cookie-disclaimer');
+
+			checkCookie();
+
+			if (cookie === true) {
+				cookieContent.hide();
+			}
+
+			function setCookie(cname, cvalue, exdays) {
+				var d = new Date();
+				d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+				var expires = "expires=" + d.toGMTString();
+				document.cookie = cname + "=" + cvalue + "; " + expires;
+			}
+
+			function getCookie(cname) {
+				var name = cname + "=";
+				var ca = document.cookie.split(';');
+				for (var i = 0; i < ca.length; i++) {
+					var c = ca[i].trim();
+					if (c.indexOf(name) === 0) return c.substring(name.length, c.length);
+				}
+				return "";
+			}
+
+			function checkCookie() {
+				var check = getCookie("acookie");
+				if (check !== "") {
+					return cookie = true;
+				} else {
+					return cookie = false; //setCookie("acookie", "accepted", 365);
+				}
+
+			}
+			$('.accept-cookie').click(function () {
+				setCookie("acookie", "accepted", 365);
+				cookieContent.hide(500);
+			});
+		});
+	</script>
+</body>
+
+</html>

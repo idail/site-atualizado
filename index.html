@@ -238,6 +238,30 @@
 		.section-trabalho {
 			visibility: hidden;
 		}
+
+		.card {
+			border: 5px solid #fff;
+			border-bottom-color: blue;
+			border-top-color: blue;
+		}
+
+		.ef-glow {
+			display: inline-block;
+			vertical-align: middle;
+			-webkit-transform: perspective(1px) translateZ(0);
+			transform: perspective(1px) translateZ(0);
+			box-shadow: 0 0 1px transparent;
+			-webkit-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+			-webkit-transition-property: box-shadow;
+			transition-property: box-shadow;
+		}
+
+		.ef-glow:hover,
+		.ef-glow:focus,
+		.ef-glow:active {
+			box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+		}
 	</style>
 
 	<script src="js/revelacao.js" defer></script>
@@ -320,10 +344,12 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="images/sistema-html-para-o-conceito-de-site.jpg" alt="Desenvolvimento de Sites" style="height: 500px;">
+				<img class="d-block w-100" src="images/sistema-html-para-o-conceito-de-site.jpg"
+					alt="Desenvolvimento de Sites" style="height: 500px;">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="images/sistema-html-para-o-conceito-de-sites.jpg" alt="Desenvolvimento de Softwares" style="height: 500px;">
+				<img class="d-block w-100" src="images/sistema-html-para-o-conceito-de-sites.jpg"
+					alt="Desenvolvimento de Softwares" style="height: 500px;">
 			</div>
 			<!-- <div class="carousel-item">
 				<img class="d-block w-100" src="..." alt="Third slide">
@@ -331,18 +357,63 @@
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
+			<span class="sr-only">Próximo</span>
 		</a>
 		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
+			<span class="sr-only">Anterior</span>
 		</a>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12">
+			<h1 style="color:black;text-align: center;">Serviços Realizados</h1>
+		</div>
 	</div>
 
 
 	<section id="servicos" class="section-trabalho">
 		<div class="row">
-			<div class="col-lg-12 text-center">
+			<div class="col-md-4">
+				<div class="card ef-glow" style="width: 25rem;">
+					<img class="card-img-top" style="margin-top: 5px;"
+						src="images/sistema-html-para-o-conceito-de-site.jpg" alt="Imagem de capa do card">
+					<div class="card-body">
+						<h5>Analise e Desenvolvimento de Sites</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card ef-glow" style="width: 25rem;">
+					<img class="card-img-top" style="margin-top: 5px;"
+						src="images/desenvolvimento de sites dois.jpeg" alt="Imagem de capa do card">
+					<div class="card-body">
+						<h5>Desenvolvimento de Softwares Web</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card ef-glow" style="width: 25rem;">
+					<img class="card-img-top" style="margin-top: 5px;"
+						src="images/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador.jpg" alt="Imagem de capa do card">
+					<div class="card-body">
+						<h5>Desenvolvimento de Softwares Desktop</h5>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div class="col-md-3">
+				<div class="card ef-glow" style="width: 18rem;">
+					<img class="card-img-top" style="margin-top: 5px;"
+						src="images/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador.jpg" alt="Imagem de capa do card">
+					<div class="card-body">
+						<h5>Desenvolvimento de Softwares Desktop</h5>
+					</div>
+				</div>
+			</div> -->
+			<!-- <div class="col-lg-12 text-center">
 				<b>
 					<h4 id="texto_informmacoes_implementacoes" class="typewrite"
 						style="line-height: 4.5;background-color: aliceblue;font-size: 19px;" data-period="1000"
@@ -350,7 +421,7 @@
 						<em><span class="wrap"></span></em>
 					</h4>
 				</b>
-			</div>
+			</div> -->
 		</div>
 	</section>
 

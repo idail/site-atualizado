@@ -273,7 +273,11 @@
 
 		@media(min-width:730px) and (max-width:800px) {
 			.ajustes {
-				width: 12rem !important;
+				width:9rem !important;
+			}
+
+			.ajustes_imagens_abaixo{
+				width:15rem !important;
 			}
 		}
 
@@ -317,6 +321,10 @@
 			.ajustes_imagens_abaixo{
 				width: 15rem !important;
 			}
+
+			.ajustes_cliente{
+				margin-bottom: 10px;
+			}
 		}
 
 		@media(min-width:414px) and (max-width:450px) {
@@ -332,9 +340,38 @@
 			}
 		}
 
-		.ajustes {
-			width: 25rem;
+		@media(min-width:375px) and (max-width:400px) {
+			.ajustes_cliente{
+				width: 22rem;
+				margin-left: 0px;
+			}
+
+			.ajustes{
+				width: 22rem;
+			}
+
+			.ajustes_imagens_abaixo{
+				width: 20rem !important;
+			}
 		}
+
+		@media(min-width:320px) and (max-width:350px) {
+			.ajustes_imagens_abaixo{
+				width: 16rem !important;
+			}
+
+			.ajustes_cliente{
+				width: 19rem !important;
+			}
+
+			.ajustes{
+				width: 18rem !important;
+			}
+		}
+
+		/* .ajustes {
+			width: 25rem;
+		} */
 	</style>
 </head>
 
@@ -447,7 +484,7 @@
 
 	<section id="servicos" class="section-trabalho justify-content-center" style="display: flex;">
 		<div class="container">
-			<div class="row justify-content-center col-sm-12 col-lg-12 col-1">
+			<div class="row justify-content-center col-sm-12 col-lg-12 col-12">
 				<div class="col-md-4 col-lg-4 col-sm-4 col-3 mb-3">
 					<div class="card ef-glow ajustes">
 						<img class="card-img-top" style="margin-top: 5px;"
@@ -522,7 +559,7 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-md-6 col-lg-4 col-sm-6">
+				<div class="col-md-6 col-lg-4 col-sm-6 mb-4">
 					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
 						<figure>
 							<a href='images/cadastro de protocolo sti.jpg' class='gallery'
@@ -668,21 +705,9 @@
 			</div>
 
 			<div class="row mt-4 mb-4">
-				<div class="col-md-6 col-lg-4">
-					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
-						<figure class='project-thumbnail'>
-							<a href='images/site mareco volpini.jpeg' class='gallery' data-lightbox='mygallery'><img
-									src="images/site mareco volpini.jpeg" class="img-fluid img-thumbnail" alt="..."></a>
-						</figure>
-						<div class="card-body">
-							<h5 class="titulo"><a href="https://www.marecovolpini.srv.br/" target="_blank">Site da
-									empresa Mareco
-									Volpini</a></h5>
-						</div>
-					</div>
-				</div>
+				
 
-				<div class="col-md-6 col-lg-4">
+				<div class="col-md-6 col-lg-4 col-sm-6 mt-2">
 					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
 						<figure class='project-thumbnail'>
 							<a href='images/painel administrativo 2.jpeg' class='gallery' data-lightbox='mygallery'><img
@@ -697,7 +722,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-6 col-lg-4">
+				<div class="col-md-6 col-lg-4 col-sm-6 mb-2">
 					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
 						<figure class='project-thumbnail'>
 							<a href='images/painel administrativo 1.jpeg' class='gallery' data-lightbox='mygallery'><img
@@ -708,6 +733,20 @@
 							<h5 class="titulo">Painel administrativo para gerenciamento de imagens da galeria e imagens
 								com
 								descrições, empresa Mareco Volpini</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4 col-sm-6">
+					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
+						<figure class='project-thumbnail'>
+							<a href='images/site mareco volpini.jpeg' class='gallery' data-lightbox='mygallery'><img
+									src="images/site mareco volpini.jpeg" class="img-fluid img-thumbnail" alt="..."></a>
+						</figure>
+						<div class="card-body">
+							<h5 class="titulo"><a href="https://www.marecovolpini.srv.br/" target="_blank">Site da
+									empresa Mareco
+									Volpini</a></h5>
 						</div>
 					</div>
 				</div>

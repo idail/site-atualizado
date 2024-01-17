@@ -15,8 +15,6 @@
 	<link rel="stylesheet" href="css/lightbox.min.css">
 	<link rel="stylesheet" href="css/style_carrousel.css">
 
-	<script src="https://unpkg.com/scrollreveal"></script>
-
 	<style>
 		html {
 			scroll-behavior: smooth;
@@ -262,9 +260,82 @@
 		.ef-glow:active {
 			box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 		}
-	</style>
 
-	<script src="js/revelacao.js" defer></script>
+		#nome-contato:focus,
+		#nome-contato:hover {
+			border-color: blue;
+		}
+
+		#necessidade-contato:focus,
+		#necessidade-contato:hover {
+			border-color: blue;
+		}
+
+		@media(min-width:730px) and (max-width:800px) {
+			.ajustes {
+				width: 12rem !important;
+			}
+		}
+
+		@media(min-width:1280px) and (max-width:1350px) {
+			.ajustes {
+				width: 20rem !important;
+			}
+		}
+
+		@media(min-width:1920px) and (max-width:2000px) {
+			.ajustes {
+				width: 20rem !important;
+			}
+		}
+
+		@media(min-width:2560px) and (max-width:2650px) {
+			.ajustes {
+				width: 20rem !important;
+			}
+		}
+
+		@media(min-width:1024px) and (max-width:1100px) {
+			.ajustes {
+				width: 18rem !important;
+			}
+		}
+
+		@media(min-width:1024px) and (max-width:1100px) {
+			.ajustes_imagens_abaixo{
+				width: 17rem !important;
+			}
+		}
+
+		@media(min-width:600px) and (max-width:700px) {
+			.ajustes {
+				width: 9rem !important;
+			}
+		}
+
+		@media(min-width:600px) and (max-width:700px) {
+			.ajustes_imagens_abaixo{
+				width: 15rem !important;
+			}
+		}
+
+		@media(min-width:414px) and (max-width:450px) {
+			.ajustes {
+				width: 24rem !important;
+			}
+		}
+
+		@media(min-width:414px) and (max-width:450px) {
+			.ajustes_cliente{
+				margin-left: 0px;
+				margin-bottom: 10px;
+			}
+		}
+
+		.ajustes {
+			width: 25rem;
+		}
+	</style>
 </head>
 
 <body style="background-color: aliceblue;">
@@ -371,90 +442,133 @@
 		</div>
 	</div>
 
+	<hr>
 
-	<section id="servicos" class="section-trabalho">
-		<div class="row">
-			<div class="col-md-4">
-				<div class="card ef-glow" style="width: 25rem;">
-					<img class="card-img-top" style="margin-top: 5px;"
-						src="images/sistema-html-para-o-conceito-de-site.jpg" alt="Imagem de capa do card">
-					<div class="card-body">
-						<h5>Analise e Desenvolvimento de Sites</h5>
+
+	<section id="servicos" class="section-trabalho justify-content-center" style="display: flex;">
+		<div class="container">
+			<div class="row justify-content-center col-sm-12 col-lg-12 col-1">
+				<div class="col-md-4 col-lg-4 col-sm-4 col-3 mb-3">
+					<div class="card ef-glow ajustes">
+						<img class="card-img-top" style="margin-top: 5px;"
+							src="images/sistema-html-para-o-conceito-de-site.jpg" alt="Imagem de capa do card">
+						<div class="card-body">
+							<h5 style="font-size: 19px;">Analise e Desenvolvimento de Sites</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-lg-4 col-sm-4 col-3 mb-3">
+					<div class="card ef-glow ajustes">
+						<img class="card-img-top" style="margin-top: 5px;"
+							src="images/desenvolvimento de sites dois.jpeg" alt="Imagem de capa do card">
+						<div class="card-body">
+							<h5 style="font-size: 19px;">Desenvolvimento de Softwares Web</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-lg-4 col-sm-4 col-3">
+					<div class="card ef-glow ajustes">
+						<img class="card-img-top" style="margin-top: 5px;"
+							src="images/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador.jpg"
+							alt="Imagem de capa do card">
+						<div class="card-body">
+							<h5 style="font-size: 19px;">Desenvolvimento de Softwares Desktop</h5>
+						</div>
 					</div>
 				</div>
 			</div>
-
-			<div class="col-md-4">
-				<div class="card ef-glow" style="width: 25rem;">
-					<img class="card-img-top" style="margin-top: 5px;"
-						src="images/desenvolvimento de sites dois.jpeg" alt="Imagem de capa do card">
-					<div class="card-body">
-						<h5>Desenvolvimento de Softwares Web</h5>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-4">
-				<div class="card ef-glow" style="width: 25rem;">
-					<img class="card-img-top" style="margin-top: 5px;"
-						src="images/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador.jpg" alt="Imagem de capa do card">
-					<div class="card-body">
-						<h5>Desenvolvimento de Softwares Desktop</h5>
-					</div>
-				</div>
-			</div>
-
-			<!-- <div class="col-md-3">
-				<div class="card ef-glow" style="width: 18rem;">
-					<img class="card-img-top" style="margin-top: 5px;"
-						src="images/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador.jpg" alt="Imagem de capa do card">
-					<div class="card-body">
-						<h5>Desenvolvimento de Softwares Desktop</h5>
-					</div>
-				</div>
-			</div> -->
-			<!-- <div class="col-lg-12 text-center">
-				<b>
-					<h4 id="texto_informmacoes_implementacoes" class="typewrite"
-						style="line-height: 4.5;background-color: aliceblue;font-size: 19px;" data-period="1000"
-						data-type='[ "Implementação de Softwares Web", "Implementação de Softwares Desktop", "Implementação de Sites"]'>
-						<em><span class="wrap"></span></em>
-					</h4>
-				</b>
-			</div> -->
 		</div>
 	</section>
 
+	<hr>
 
-	<div>
-		<div class="container-fluid">
-			<section id="projetos">
+	<section style="background-color: azure;display: flex;" class="justify-content-center"
+		id="informacoes_seguindo_cliente">
+		<div class="row">
+			<div class="col-md-6 col-lg-6 col-sm-6 col-12 ajustes_cliente" style="display: flex;">
+				<div class="card ef-glow" style="width: 25rem;">
+					<img class="card-img-top" style="margin-top: 5px;" src="images/requisitos.jpeg"
+						alt="Imagem de capa do card">
+					<div class="card-body">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-6 col-sm-6 col-12 ajustes_cliente" style="display: flex;">
+				<div class="card ef-glow" style="width: 25rem;">
+					<div class="card-body">
+						<ul>
+							<li>Implementação seguindo requisitos do cliente</li>
+							<li>Feito o levantamento de requisitos junto do cliente</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-				<div class="row">
-					<!-- <div class="col-lg-12 col-xl-12 text-center"> -->
-					<!-- <main class="main-content"> -->
-					<!-- <div class="fullwidth-block latest-projects-section"> -->
-					<!-- <div class="container"> -->
-					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
-						<div class='project'>
-							<a class='project-thumbnail'>
-								<!-- <source srcset="..." type="image/svg+xml"> -->
-								<a href='images/cadastro de protocolo sti.jpg' class='gallery'
-									data-lightbox='mygallery'><img src="images/cadastro de protocolo sti.jpg"
-										class="img-fluid img-thumbnail" alt="..."></a>
-								</figure>
-								<h5 class="titulo">Software para a área da saude, com gerencimento de
-									protocolos,
-									pop, aulas, normas e serviços, para utilização dos profissionais</h5>
+	<div class="row" style="background-color: lightblue;">
+		<div class="col-md-12">
+			<h1 style="color:black;text-align: center;">Projetos Finalizados</h1>
+		</div>
+	</div>
+
+
+
+	<section id="projetos" style="display: flex;background-color: lightblue;"
+		class="justify-content-center col-lg-12 mb-4">
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 col-lg-4 col-sm-6">
+					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
+						<figure>
+							<a href='images/cadastro de protocolo sti.jpg' class='gallery'
+								data-lightbox='mygallery'><img src="images/cadastro de protocolo sti.jpg"
+									class="img-fluid img-thumbnail" alt="..."></a>
+						</figure>
+						<div class="card-body">
+							<h5 class="titulo">Software para a área da saude, com gerencimento de
+								protocolos,
+								pop, aulas, normas e serviços, para utilização dos profissionais</h5>
 						</div>
 					</div>
+				</div>
 
+				<div class="col-md-6 col-lg-4 col-sm-6 mb-2">
+					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
+						<figure>
+							<a href='images/menu sti.jpg' class='gallery' data-lightbox='mygallery'><img
+									src="images/menu sti.jpg" class="img-fluid img-thumbnail" alt="..."></a>
+						</figure>
+						<div class="card-body">
+							<h5 class="titulo">Software para a área da saude, com gerencimento de
+								protocolos,
+								pop, aulas, normas e serviços, para utilização dos profissionais</h5>
+						</div>
+					</div>
+				</div>
 
+				<div class="col-md-6 col-lg-4 col-sm-6 mb-2">
+					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
+						<figure class='project-thumbnail'>
+							<a href='images/login sti.jpg' class='gallery' data-lightbox='mygallery'><img
+									src="images/login sti.jpg" class="img-fluid img-thumbnail" alt="..."></a>
+						</figure>
+						<div class="card-body">
+							<h5 class="titulo">Software para a área da saude, com gerencimento de
+								protocolos,
+								pop, aulas, normas e serviços, para utilização dos profissionais</h5>
+						</div>
+					</div>
+				</div>
 
-					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
+				<!-- <div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
 						<div class='project'>
 							<figure class='project-thumbnail'>
-								<!-- <source srcset="..." type="image/svg+xml"> -->
+								
 								<a href='images/menu sti.jpg' class='gallery' data-lightbox='mygallery'><img
 										src="images/menu sti.jpg" class="img-fluid img-thumbnail" alt="..."></a>
 							</figure>
@@ -462,12 +576,11 @@
 								protocolos,
 								pop, aulas, normas e serviços, para utilização dos profissionais</h5>
 						</div>
-					</div>
+					</div> -->
 
-					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
+				<!-- <div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
 						<div class='project'>
 							<figure class='project-thumbnail'>
-								<!-- <source srcset="..." type="image/svg+xml"> -->
 								<a href='images/cadastro de notificacao sti.png' class='gallery'
 									data-lightbox='mygallery'><img src="images/cadastro de notificacao sti.png"
 										class="img-fluid img-thumbnail" alt="..."></a>
@@ -481,7 +594,6 @@
 					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
 						<div class='project'>
 							<figure class='project-thumbnail'>
-								<!-- <source srcset="..." type="image/svg+xml"> -->
 								<a href='images/login sti.jpg' class='gallery' data-lightbox='mygallery'><img
 										src="images/login sti.jpg" class="img-fluid img-thumbnail" alt="..."></a>
 							</figure>
@@ -494,7 +606,6 @@
 					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
 						<div class='project'>
 							<figure class='project-thumbnail'>
-								<!-- <source srcset="..." type="image/svg+xml"> -->
 								<a href='images/cadastro de usuario sti.jpg' class='gallery'
 									data-lightbox='mygallery'><img src="images/cadastro de usuario sti.jpg"
 										class="img-fluid img-thumbnail" alt="..."></a>
@@ -503,45 +614,44 @@
 								protocolos,
 								pop, aulas, normas e serviços, para utilização dos profissionais</>
 						</div>
-					</div>
+					</div> -->
 
 
-					<!-- </div> -->
-					<!-- </div> -->
-					<!-- </main> -->
-					<!-- </div> -->
+				<!-- </div> -->
+				<!-- </div> -->
+				<!-- </main> -->
+				<!-- </div> -->
 
-					<!-- <a href="https://www.marecovolpini.srv.br" target="_blank"><img src="images/site mareco volpini.PNG"
+				<!-- <a href="https://www.marecovolpini.srv.br" target="_blank"><img src="images/site mareco volpini.PNG"
 						style="max-width: 25%;" class="img-fluid"
 						title="Implementação do site para a empresa mareco volpini"
 						alt="Implementação do site para a empresa mareco volpini"></a> -->
-					<!-- <img src="images/painel administrativo 1.PNG" style="max-width: 25%;" class="img-fluid"
+				<!-- <img src="images/painel administrativo 1.PNG" style="max-width: 25%;" class="img-fluid"
 					title="Implementação de painel para gerenciamento de imagens com descrições" alt="...">
 				<img src="images/painel administrativo 2.PNG" style="max-width: 25%;" class="img-fluid"
 					title="Implementação de painel para gerenciamento de imagens da galeria" alt="..."> -->
-					<!-- <br /> -->
-					<br />
+				<!-- <br /> -->
+				<!-- <br />
 					<br>
 					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
 						<div class='project'>
 							<figure class='project-thumbnail'>
-								<!-- <source srcset="..." type="image/svg+xml"> -->
 								<img src="" class="img-fluid img-thumbnail" alt="...">
 							</figure>
 							<h6 style="color: black;">Implementação de software para construtoras com o módulo da
 								engenharia civil</h6>
 						</div>
-					</div>
-					<!-- <h3>Implementação de software para construtoras com o módulo da engenharia civil</h3> -->
-					<!-- <img src="images/software para engenharia.PNG" style="max-width: 50%;" class="img-fluid"
+					</div> -->
+				<!-- <h3>Implementação de software para construtoras com o módulo da engenharia civil</h3> -->
+				<!-- <img src="images/software para engenharia.PNG" style="max-width: 50%;" class="img-fluid"
 					title="Implementação de software para construtoras com o módulo da engenharia civil"
 					alt="Implementação de software para construtoras com o módulo da engenharia civil"> -->
-					<br />
+				<!-- <br />
 					<br />
 					<div class='col-xl-3 col-lg-3 col-sm-6 col-md-5'>
 						<div class='project'>
 							<figure class='project-thumbnail'>
-								<!-- <source srcset="..." type="image/svg+xml"> -->
+								
 								<a href="https://redeamigos.idailneto.com.br/" target="_blank"><img
 										src="images/rede social rede amigos.PNG" class="img-fluid img-thumbnail"
 										alt="..."></a>
@@ -549,19 +659,63 @@
 							<h6 style="color: black;">Implementação da rede social amigos com funcionalidades em
 								implementação</h6>
 						</div>
-					</div>
-					<!-- <h3>Rede Amigos - Em implementação</h3>
+					</div> -->
+				<!-- <h3>Rede Amigos - Em implementação</h3>
 					<a href="https://redeamigos.idailneto.com.br/" target="_blank"><img
 							src="images/rede social rede amigos.PNG" style="max-width: 50%;" class="img-fluid"
 							title="Implementação da rede social amigos com funcionalidades em implementação"
 							alt="Implementação do site para a empresa mareco volpini"></a> -->
+			</div>
+
+			<div class="row mt-4 mb-4">
+				<div class="col-md-6 col-lg-4">
+					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
+						<figure class='project-thumbnail'>
+							<a href='images/site mareco volpini.jpeg' class='gallery' data-lightbox='mygallery'><img
+									src="images/site mareco volpini.jpeg" class="img-fluid img-thumbnail" alt="..."></a>
+						</figure>
+						<div class="card-body">
+							<h5 class="titulo"><a href="https://www.marecovolpini.srv.br/" target="_blank">Site da
+									empresa Mareco
+									Volpini</a></h5>
+						</div>
+					</div>
 				</div>
-			</section>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
+						<figure class='project-thumbnail'>
+							<a href='images/painel administrativo 2.jpeg' class='gallery' data-lightbox='mygallery'><img
+									src="images/painel administrativo 2.jpeg" class="img-fluid img-thumbnail"
+									alt="..."></a>
+						</figure>
+						<div class="card-body">
+							<h5 class="titulo">Painel administrativo para gerenciamento de imagens da galeria e imagens
+								com
+								descrições, empresa Mareco Volpini</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
+						<figure class='project-thumbnail'>
+							<a href='images/painel administrativo 1.jpeg' class='gallery' data-lightbox='mygallery'><img
+									src="images/painel administrativo 1.jpeg" class="img-fluid img-thumbnail"
+									alt="..."></a>
+						</figure>
+						<div class="card-body">
+							<h5 class="titulo">Painel administrativo para gerenciamento de imagens da galeria e imagens
+								com
+								descrições, empresa Mareco Volpini</h5>
+						</div>
+					</div>
+				</div>
+
+			</div>
 		</div>
-	</div>
-	<br />
-	<br />
-	<br />
+	</section>
+
 	<section id="formulario-contato">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
@@ -569,13 +723,12 @@
 					<h4 class="text-center">Contato</h4>
 					<div class="col-lg-12 form-group text-center">
 						<label for="exampleFormControlInput1" class="form-label">Nome</label>
-						<input type="text" class="form-control" id="nome-contato" placeholder="Digite seu nome">
+						<input type="text" class="form-control" id="nome-contato" placeholder="Digite seu nome"
+							style="border-radius: 20px;">
 					</div>
 					<div class="col-lg-12 form-group text-center">
-						<label for="exampleFormControlTextarea1" class="form-label">Digite sua necessidade</label>
-						<textarea class="form-control" id="necessidade-contato" rows="3"
-							placeholder="Informa sua necessidade"></textarea>
-						<br />
+						<label for="exampleFormControlTextarea1">Informe sua necessidade</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 						<button type="button" class="btn btn-primary" id="informacoes-contato">Enviar</button>
 					</div>
 				</div>
@@ -593,6 +746,19 @@
 			</div>
 		</div>
 	</section>
+
+	<section class="justify-content-center" style="background-color: lightblue;">
+		<div class="row">
+			<div class="col-lg-6">
+				<h5 style="text-align: center;">Entre em contato conosco para orçamentos</h5>
+			</div>
+			<div class="col-lg-6">
+				<h5 style="text-align: center;">Site desenvolvido por Idail Neto</h5>
+			</div>
+		</div>
+	</section>
+
+
 	<section>
 		<div class="btn-whatsapp pulsaDelay">
 			<a href="https://wa.me/5567992137944?text=Olá,%20tudo%20bem?" class="whatsapp" style="position:fixed;width:60px;height:60px;
@@ -627,6 +793,9 @@ z-index:1000;" target="_blank"> -->
 	<!-- <script src="js/main.js"></script> -->
 	<script src="js/contato.js"></script>
 	<script src="js/digitacao.js"></script>
+
+	<script src="js/scroll_revelacao.js"></script>
+	<script src="js/revelacao.js"></script>
 
 	<script>
 		$(document).ready(function () {

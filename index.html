@@ -273,11 +273,11 @@
 
 		@media(min-width:730px) and (max-width:800px) {
 			.ajustes {
-				width:9rem !important;
+				width: 9rem !important;
 			}
 
-			.ajustes_imagens_abaixo{
-				width:15rem !important;
+			.ajustes_imagens_abaixo {
+				width: 15rem !important;
 			}
 		}
 
@@ -306,7 +306,7 @@
 		}
 
 		@media(min-width:1024px) and (max-width:1100px) {
-			.ajustes_imagens_abaixo{
+			.ajustes_imagens_abaixo {
 				width: 17rem !important;
 			}
 		}
@@ -318,54 +318,162 @@
 		}
 
 		@media(min-width:600px) and (max-width:700px) {
-			.ajustes_imagens_abaixo{
+			.ajustes_imagens_abaixo {
 				width: 15rem !important;
 			}
 
-			.ajustes_cliente{
+			.ajustes_cliente {
 				margin-bottom: 10px;
 			}
 		}
 
-		@media(min-width:414px) and (max-width:450px) {
+		/* @media(min-width:414px) and (max-width:450px) {
 			.ajustes {
-				width: 24rem !important;
+				width: 23rem !important;
 			}
-		}
 
-		@media(min-width:414px) and (max-width:450px) {
-			.ajustes_cliente{
+			.ajustes_requisitos_cliente{
+				margin-left: 25px;
+			}
+		} */
+
+		@media(min-width:414px) and (max-width:430px) {
+			.ajustes_cliente {
 				margin-left: 0px;
 				margin-bottom: 10px;
+			}
+
+			.ajustes {
+				width: 23rem !important;
+			}
+
+			.ajustes_requisitos_cliente{
+				margin-left: 25px;
+			}
+
+			.ajustes_imagens_abaixo{
+				width: 23rem;
+				margin-left: 5px;
 			}
 		}
 
 		@media(min-width:375px) and (max-width:400px) {
-			.ajustes_cliente{
+			.ajustes_cliente {
 				width: 22rem;
 				margin-left: 0px;
 			}
 
-			.ajustes{
-				width: 22rem;
+			.ajustes {
+				width: 21rem;
 			}
 
-			.ajustes_imagens_abaixo{
+			.ajustes_imagens_abaixo {
 				width: 20rem !important;
 			}
 		}
 
 		@media(min-width:320px) and (max-width:350px) {
-			.ajustes_imagens_abaixo{
+			.ajustes_imagens_abaixo {
 				width: 16rem !important;
 			}
 
-			.ajustes_cliente{
+			.ajustes_cliente {
 				width: 19rem !important;
 			}
 
+			.ajustes {
+				width: 17rem !important;
+			}
+		}
+
+		@media(min-width:568px) and (max-width:580px) {
+			.ajustes {
+				width: 10rem !important;
+			}
+
+			.informacoes-servicos-ajuste {
+				-webkit-box-flex: 0 !important;
+				-ms-flex: 0 0 33.33333%;
+				flex: 0 0 33.33333% !important;
+				max-width: 33.33333% !important;
+			}
+
+			.ajustes_cliente {
+				-webkit-box-flex: 0;
+				-ms-flex: 0 0 50%;
+				flex: 0 0 50%;
+				max-width: 50%;
+			}
+
+			.ajustes_imagens_projetos {
+				-webkit-box-flex: 0;
+				-ms-flex: 0 0 50%;
+				flex: 0 0 50%;
+				max-width: 50%;
+			}
+
+			.ajustes_imagens_abaixo {
+				width: 15rem !important;
+			}
+		}
+
+		@media(min-width:480px) and (max-width:500px) {
+			.ajustes {
+				width: 27rem !important;
+			}
+
+			.ajustes_cliente {
+				width: 27rem !important;
+			}
+
+			.ajustes_requisitos_cliente {
+				margin-left: 40px !important;
+			}
+
+			.ajustes_imagens_abaixo {
+				width: 27rem !important;
+			}
+		}
+
+		@media(min-width:501px) and (max-width:568px) {
 			.ajustes{
-				width: 18rem !important;
+				width: 28rem !important;
+			}
+
+			.ajustes_cliente{
+				margin-left: 10px !important;
+			}
+
+			.ajustes_requisitos_cliente{
+				width: 29rem !important;
+			}
+
+			.ajustes_imagens_abaixo{
+				width: 28rem !important;
+			}
+		}
+
+		@media(min-width:460px) and (max-width:479px) {
+			.ajustes{
+				width: 26rem !important;
+			}
+
+			.ajustes_requisitos_cliente{
+				width: 27rem !important;
+			}
+
+			.ajustes_imagens_abaixo{
+				width: 26rem !important;
+			}
+		}
+
+		@media(min-width:450px) and (max-width:459px) {
+			.ajustes{
+				width: 25rem !important;
+			}
+
+			.ajustes_imagens_abaixo{
+				width: 24rem !important;
 			}
 		}
 
@@ -485,7 +593,7 @@
 	<section id="servicos" class="section-trabalho justify-content-center" style="display: flex;">
 		<div class="container">
 			<div class="row justify-content-center col-sm-12 col-lg-12 col-12">
-				<div class="col-md-4 col-lg-4 col-sm-4 col-3 mb-3">
+				<div class="col-md-4 col-lg-4 col-sm-4 col-12 mb-3 informacoes-servicos-ajuste">
 					<div class="card ef-glow ajustes">
 						<img class="card-img-top" style="margin-top: 5px;"
 							src="images/sistema-html-para-o-conceito-de-site.jpg" alt="Imagem de capa do card">
@@ -495,7 +603,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 col-lg-4 col-sm-4 col-3 mb-3">
+				<div class="col-md-4 col-lg-4 col-sm-4 col-12 mb-3 informacoes-servicos-ajuste">
 					<div class="card ef-glow ajustes">
 						<img class="card-img-top" style="margin-top: 5px;"
 							src="images/desenvolvimento de sites dois.jpeg" alt="Imagem de capa do card">
@@ -505,7 +613,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 col-lg-4 col-sm-4 col-3">
+				<div class="col-md-4 col-lg-4 col-sm-4 col-12 informacoes-servicos-ajuste">
 					<div class="card ef-glow ajustes">
 						<img class="card-img-top" style="margin-top: 5px;"
 							src="images/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador.jpg"
@@ -523,22 +631,24 @@
 
 	<section style="background-color: azure;display: flex;" class="justify-content-center"
 		id="informacoes_seguindo_cliente">
-		<div class="row">
-			<div class="col-md-6 col-lg-6 col-sm-6 col-12 ajustes_cliente" style="display: flex;">
-				<div class="card ef-glow" style="width: 25rem;">
-					<img class="card-img-top" style="margin-top: 5px;" src="images/requisitos.jpeg"
-						alt="Imagem de capa do card">
-					<div class="card-body">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-6 col-sm-6 col-12 ajustes_cliente mb-4" style="display: flex;">
+					<div class="card ef-glow ajustes_requisitos_cliente" style="width: 25rem;">
+						<img class="card-img-top" style="margin-top: 5px;" src="images/requisitos.jpeg"
+							alt="Imagem de capa do card">
+						<div class="card-body">
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-6 col-lg-6 col-sm-6 col-12 ajustes_cliente" style="display: flex;">
-				<div class="card ef-glow" style="width: 25rem;">
-					<div class="card-body">
-						<ul>
-							<li>Implementação seguindo requisitos do cliente</li>
-							<li>Feito o levantamento de requisitos junto do cliente</li>
-						</ul>
+				<div class="col-md-6 col-lg-6 col-sm-6 col-12 ajustes_cliente" style="display: flex;">
+					<div class="card ef-glow ajustes_requisitos_cliente" style="width: 25rem;">
+						<div class="card-body">
+							<ul>
+								<li>Implementação seguindo requisitos do cliente</li>
+								<li>Feito o levantamento de requisitos junto do cliente</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -559,7 +669,7 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-md-6 col-lg-4 col-sm-6 mb-4">
+				<div class="col-md-6 col-lg-4 col-sm-6 mb-4 ajustes_imagens_projetos">
 					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
 						<figure>
 							<a href='images/cadastro de protocolo sti.jpg' class='gallery'
@@ -574,7 +684,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-6 col-lg-4 col-sm-6 mb-2">
+				<div class="col-md-6 col-lg-4 col-sm-6 mb-2 ajustes_imagens_projetos">
 					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
 						<figure>
 							<a href='images/menu sti.jpg' class='gallery' data-lightbox='mygallery'><img
@@ -588,7 +698,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-6 col-lg-4 col-sm-6 mb-2">
+				<div class="col-md-6 col-lg-4 col-sm-6 mb-2 ajustes_imagens_projetos">
 					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
 						<figure class='project-thumbnail'>
 							<a href='images/login sti.jpg' class='gallery' data-lightbox='mygallery'><img
@@ -705,9 +815,9 @@
 			</div>
 
 			<div class="row mt-4 mb-4">
-				
 
-				<div class="col-md-6 col-lg-4 col-sm-6 mt-2">
+
+				<div class="col-md-6 col-lg-4 col-sm-6 mt-2 ajustes_imagens_projetos">
 					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
 						<figure class='project-thumbnail'>
 							<a href='images/painel administrativo 2.jpeg' class='gallery' data-lightbox='mygallery'><img
@@ -722,7 +832,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-6 col-lg-4 col-sm-6 mb-2">
+				<div class="col-md-6 col-lg-4 col-sm-6 mb-2 ajustes_imagens_projetos">
 					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
 						<figure class='project-thumbnail'>
 							<a href='images/painel administrativo 1.jpeg' class='gallery' data-lightbox='mygallery'><img
@@ -737,7 +847,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-6 col-lg-4 col-sm-6">
+				<div class="col-md-6 col-lg-4 col-sm-6 ajustes_imagens_projetos">
 					<div class="card ef-glow ajustes_imagens_abaixo" style="width: 20rem;">
 						<figure class='project-thumbnail'>
 							<a href='images/site mareco volpini.jpeg' class='gallery' data-lightbox='mygallery'><img
@@ -878,6 +988,10 @@ z-index:1000;" target="_blank"> -->
 				cookieContent.hide(500);
 			});
 		});
+
+		let elemento_um_informacoes_servicos = document.querySelector("#informacoes-servicos-ajuste");
+
+		//elemento_um_informacoes_servicos.classList.add("col-4");
 	</script>
 </body>
 

@@ -1,4 +1,4 @@
-debugger;
+//debugger;
 window.relevar = ScrollReveal({reset:true});
 
 relevar.reveal(".section-trabalho",
@@ -14,6 +14,12 @@ relevar.reveal("#informacoes_seguindo_cliente",
 });
 
 relevar.reveal("#projetos",
+{
+    duration:2000,
+    distance:"90px"
+});
+
+relevar.reveal(".formulario_contato_scroll",
 {
     duration:2000,
     distance:"90px"

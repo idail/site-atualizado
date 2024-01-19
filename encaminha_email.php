@@ -44,7 +44,7 @@ function encaminhar_email_contato($recebe_nome,$recebe_necessidade):string
             $mail->Port = 465;
             //$mail->Port = 587;
             $mail->setFrom("idailneto@idailneto.com.br","E-mail da necessidade da pessoa");
-            $mail->addAddress("idailneto@idailneto.com.br");
+            $mail->addAddress("neto_br_8@hotmail.com");
             $mail->isHTML(true);
             $mail->Subject = "E-mail de contato do site";
             $mail->Body = "Olá, meu nome é:".$recebe_nome."<br>Preciso:".$recebe_necessidade;

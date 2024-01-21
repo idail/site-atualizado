@@ -408,6 +408,14 @@
 			.ajustes_requisitos_cliente {
 				margin-left: 21px;
 			}
+
+			#formulario-contato{
+				height: 535px !important;
+			}
+
+			#dados-contato{
+				height: 530px !important;
+			}
 		}
 
 		@media(min-width:320px) and (max-width:350px) {
@@ -928,7 +936,7 @@
 
 	<section id="formulario-contato" class="formulario_contato_scroll">
 		<div class="container"
-			style="border: 5px solid blue;border-radius: 140px;box-shadow: 0px 55px 49px -5px currentColor;margin-bottom: 30px;">
+			style="border: 5px solid blue;border-radius: 140px;box-shadow: 0px 55px 49px -5px currentColor;margin-bottom: 30px;" id="dados-contato">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-md-6 form-group">
 					<h4 class="text-center">Contato</h4>
@@ -953,15 +961,15 @@
 			</div>
 
 			<div class="row justify-content-center align-items-center">
-				<div class="alert alert-primary col-md-6  text-center" role="alert"
+				<div class="alert alert-primary col-md-6 col-6 col-md-6  text-center" role="alert"
 					id="mensagem-validacao-campo-vazio">
 					<span id="mensagem-campo-vazio"></span>
 				</div>
-				<div class="alert alert-success col-md-6 text-center" role="alert"
+				<div class="alert alert-success col-md-6 col-6 col-md-6 text-center" role="alert"
 					id="mensagem-informativo-email">
 					<span id="mensagem-email-encminhado"></span>
 				</div>
-				<div class="alert alert-primary col-md-6 text-center" role="alert"
+				<div class="alert alert-primary col-md-6 col-6 col-md-6 text-center" role="alert"
 					id="mensagem-erro-encaminhamento-email">
 					<span id="mensagem-campo-erro-encaminhamento-email"></span>
 				</div>
